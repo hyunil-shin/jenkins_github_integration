@@ -1,4 +1,4 @@
-properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/hyunil-shin/github_integration/'], 
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/hyunil-shin/jenkins_github_integration.git'], 
             pipelineTriggers([githubPush()])])
 
 node() {    
