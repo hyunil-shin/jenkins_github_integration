@@ -4,7 +4,7 @@ properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'h
 node() {    
     checkout scm
     sh 'ls -al'
-    setBuildStatus("Build complete", "SUCCESS");
+    //setBuildStatus("Build complete", "SUCCESS");
 }
 
 void setBuildStatus(String message, String state) {
