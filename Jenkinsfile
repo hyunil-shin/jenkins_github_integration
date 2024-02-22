@@ -4,6 +4,7 @@ properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'h
 node() {    
     checkout scm
     sh 'ls -al'
+    echo "hello"
     //setBuildStatus("Build complete", "SUCCESS");
 }
 
